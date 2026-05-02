@@ -50,7 +50,9 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
    ```
 
 4. Build and Run
-   Run Analyzer.exe
+
+
+    Run Analyzer.exe
 
 # Example Output
 ```
