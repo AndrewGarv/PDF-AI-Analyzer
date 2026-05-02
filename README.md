@@ -26,6 +26,7 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
 
 # Getting Started
 1. Install Dependencies
+
    **Python**
    ```
    pip install torch transformers onnx onnxruntime pdfplumber onnxscript
@@ -33,3 +34,50 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
 **C++**
 * Install Microsoft.ML.OnnxRuntime via NuGet
 * Install nlohmann/json
+
+
+2. Generate Model (Python)
+   ```
+   python export_model.py
+   ```
+   Move files to
+   ```
+   /models/model.onnx
+/models/model.onnx.data (if generated)
+```
+
+3. Process pdf
+```
+python process_pdf.py
+```
+
+4. Build and Run
+Run Analyzer.exe
+
+# Example Output
+```
+Model loaded successfully!
+Processing chunk #0
+Processing chunk #1
+...
+
+===== FINAL RESULT =====
+Chunks analyzed: 11
+Positive chunks: 8
+Negative chunks: 3
+Final Document Sentiment: POSITIVE
+```
+
+
+# Current Limitations
+* Uses sentiment model (not semantic understanding)
+* No cross-chunk context
+* Requires Python preprocessing step
+* Basic aggregation (count-based)
+
+# Roadmap
+* Highlight most important sections
+* Add summarization model
+* Confidence-weighted scoring
+* Remove JSON (direct Python ↔ C++ bridge)
+* Multi-document support
