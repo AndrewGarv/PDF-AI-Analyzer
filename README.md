@@ -42,11 +42,12 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
    ```
    Move files to
    ```
-   /models/model.onnx
+    /models/model.onnx
 /models/model.onnx.data (if generated)
 ```
+  
 
-3. Process pdf
+4. Process pdf
 ```
 python process_pdf.py
 ```
