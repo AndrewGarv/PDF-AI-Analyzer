@@ -34,8 +34,6 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
   **C++**
   * Install Microsoft.ML.OnnxRuntime via NuGet
   * Install nlohmann/json
-
-
 2. Generate Model (Python)
    ```
    python export_model.py
