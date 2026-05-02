@@ -37,19 +37,19 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
 
 
 2. Generate Model (Python)
-   ```
+   
    python export_model.py
-   ```
+   
    Move files to
-   ```
+   
     /models/model.onnx
-```
+
   
 
 4. Process pdf
-```
+
 python process_pdf.py
-```
+
 
 4. Build and Run
 Run Analyzer.exe
@@ -66,7 +66,7 @@ Chunks analyzed: 11
 Positive chunks: 8
 Negative chunks: 3
 Final Document Sentiment: POSITIVE
-```
+
 
 
 # Current Limitations
