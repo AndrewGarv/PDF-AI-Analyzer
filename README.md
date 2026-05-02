@@ -31,12 +31,12 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
    ```
    pip install torch transformers onnx onnxruntime pdfplumber onnxscript
    ```
-**C++**
-* Install Microsoft.ML.OnnxRuntime via NuGet
-* Install nlohmann/json
+  **C++**
+  * Install Microsoft.ML.OnnxRuntime via NuGet
+  * Install nlohmann/json
 
 
-  2. Generate Model (Python)
+2. Generate Model (Python)
    ```
    python export_model.py
    ```
@@ -47,7 +47,7 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
 
   
 
-  3. Process pdf
+3. Process pdf
 
 python process_pdf.py
 
