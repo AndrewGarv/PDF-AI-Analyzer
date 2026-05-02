@@ -55,7 +55,7 @@ python process_pdf.py
 Run Analyzer.exe
 
 # Example Output
-```
+
 Model loaded successfully!
 Processing chunk #0
 Processing chunk #1
