@@ -36,7 +36,7 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
 * Install nlohmann/json
 
 
-2. Generate Model (Python)
+  2. Generate Model (Python)
    ```
    python export_model.py
    ```
@@ -47,7 +47,7 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
 
   
 
-4. Process pdf
+  3. Process pdf
 
 python process_pdf.py
 
@@ -56,7 +56,7 @@ python process_pdf.py
 Run Analyzer.exe
 
 # Example Output
-
+```
 Model loaded successfully!
 Processing chunk #0
 Processing chunk #1
@@ -67,7 +67,7 @@ Chunks analyzed: 11
 Positive chunks: 8
 Negative chunks: 3
 Final Document Sentiment: POSITIVE
-
+```
 
 
 # Current Limitations
