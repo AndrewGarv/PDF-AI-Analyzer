@@ -46,9 +46,9 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
   
 
 3. Process pdf
-
+```
 python process_pdf.py
-
+```
 
 4. Build and Run
 Run Analyzer.exe
