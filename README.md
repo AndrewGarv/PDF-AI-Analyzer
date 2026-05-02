@@ -43,7 +43,6 @@ PDF > Text Extraction (Python) > Chunking > Tokenization > tokens.json > C++ (ON
    Move files to
    ```
     /models/model.onnx
-/models/model.onnx.data (if generated)
 ```
   
 
