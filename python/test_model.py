@@ -4,7 +4,7 @@ from transformers import pipeline
 classifier = pipeline("sentiment-analysis")
 
 # Test input
-text = "This project is awesome!"
+text = "Testing input! I repeast: Testing input!"
 
 # Run model
 result = classifier(text)
