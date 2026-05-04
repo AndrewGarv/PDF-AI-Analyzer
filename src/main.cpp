@@ -33,7 +33,7 @@ int main() {
 
     std::cout << "Output name: " << output_name << std::endl;
 
-    // 3. Load JSON (USE ABSOLUTE PATH FOR DEBUG IF NEEDED)
+    // 3. Load JSON 
     std::ifstream file("models/tokens.json");
 
     if (!file.is_open()) {
@@ -177,7 +177,7 @@ int main() {
         index++;
     }
 
-    // 12. Final summary
+    
     int total = positive_count + negative_count;
 
     std::cout << "\n===== FINAL RESULT =====" << std::endl;
