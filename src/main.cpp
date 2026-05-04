@@ -52,7 +52,7 @@ int main() {
         return 1;
     }
 
-    // 4. Memory info (shared)
+    // 4. Memory info 
     Ort::MemoryInfo memory_info = Ort::MemoryInfo::CreateCpu(
         OrtArenaAllocator, OrtMemTypeDefault);
 
@@ -100,7 +100,7 @@ int main() {
             continue;
         }
 
-        // Extract data safely
+        // This is for extracting the data
         std::vector<int64_t> input_ids;
         for (const auto& val : chunk["input_ids"]) {
             input_ids.push_back(static_cast<int64_t>(val));
